@@ -24,6 +24,8 @@ form {
   padding: 10%;
   padding-bottom: 7%;
   border-radius: 10px; }
+  form #popup {
+    color: green; }
   form input {
     display: block;
     width: 90%;
