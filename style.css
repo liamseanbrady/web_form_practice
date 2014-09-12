@@ -7,6 +7,9 @@ html {
   width: 80%;
   margin: 0 auto;
   padding-top: 20px; }
+  @media (min-width: 568px) {
+    #wrapper {
+      width: 60%; } }
 
 h1 {
   font-family: sans-serif;
@@ -21,11 +24,15 @@ h1 {
 
 form {
   background-color: #eee;
+  width: 90%;
+  margin: 0 auto;
   padding: 10%;
   padding-bottom: 7%;
   border-radius: 10px; }
-  form #popup {
-    color: green; }
+  @media (min-width: 568px) {
+    form {
+      padding: 5%;
+      padding-bottom: 2%; } }
   form input {
     display: block;
     width: 90%;
@@ -48,5 +55,11 @@ form {
       form input[type="submit"]:hover {
         background-color: #6464dc;
         cursor: pointer; }
+      @media (min-width: 1000px) {
+        form input[type="submit"] {
+          padding: 4%; } }
+    @media (min-width: 568px) {
+      form input {
+        width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
